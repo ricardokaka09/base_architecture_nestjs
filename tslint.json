@@ -1,0 +1,15 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-config-prettier"
+    ],
+    "jsRules": {
+    },
+    "rules": {
+        "prettier": true,
+        "quotemark": [true, "single", "jsx-double"],
+        "max-classes-per-file": false
+    },
+    "rulesDirectory": ["tslint-plugin-prettier"]
+}
